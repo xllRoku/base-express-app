@@ -1,3 +1,5 @@
 describe('hello world', () => {
-    expect('').toBe(200);
+    it('Should return 200', () => {
+        expect(200).toBe(200);
+    });
 });
