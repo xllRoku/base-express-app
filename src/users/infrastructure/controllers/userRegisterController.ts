@@ -1,10 +1,10 @@
 import { Body, Controller, Post, Route, SuccessResponse } from 'tsoa';
-import { UserRegisterDto } from './dto/user-register.dto';
-import { UserRegisterUseCase } from './user-register.usecase';
-import { UuidVO } from './value-objects/uuid.vo';
-import { NameVO } from './value-objects/name.vo';
-import { EmailVO } from './value-objects/email.vo';
-import { PasswordVO } from './value-objects/password.vo';
+import { UserRegisterDto } from '../dtos/user-register.dto';
+import { UserRegisterUseCase } from '../../application/use-cases/user-register.usecase';
+import { UuidVO } from '@shared/domain/value-objects/uuid.vo';
+import { NameVO } from '@shared/domain/value-objects/name.vo';
+import { EmailVO } from '@shared/domain/value-objects/email.vo';
+import { PasswordVO } from '@shared/domain/value-objects/password.vo';
 
 @Route('users')
 export class UserRegisterController extends Controller {

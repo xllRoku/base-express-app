@@ -1,4 +1,4 @@
-import mongoose, { type Model } from 'mongoose';
+import mongoose from 'mongoose';
 
 const schema = new mongoose.Schema({
     _id: { type: String, _id: false, required: true },

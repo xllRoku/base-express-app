@@ -13,6 +13,11 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "@user/*": ["src/user/*"],
+            "@shared/*": ["src/shared/*"]
+        },
         "plugins": [
             {
                 "transform": "typescript-transform-paths"

@@ -1,9 +1,9 @@
-import { UserModel } from './model/user.model';
-import { UserRepository } from './user.repository';
-import { EmailVO } from './value-objects/email.vo';
-import { NameVO } from './value-objects/name.vo';
-import { PasswordVO } from './value-objects/password.vo';
-import { UuidVO } from './value-objects/uuid.vo';
+import { UserModel } from '../../domain/models/user.model';
+import { UserRepository } from '../../infrastructure/repositories/user.repository';
+import { EmailVO } from '@shared/domain/value-objects/email.vo';
+import { NameVO } from '@shared/domain/value-objects/name.vo';
+import { PasswordVO } from '@shared/domain/value-objects/password.vo';
+import { UuidVO } from '@shared/domain/value-objects/uuid.vo';
 
 export class UserRegisterUseCase {
     private readonly userRepository = new UserRepository();
