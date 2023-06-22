@@ -7,6 +7,7 @@ import express, {
 import { config as dotenvConfig } from 'dotenv';
 import { RegisterRoutes } from '../build/routes';
 import swaggerUi from 'swagger-ui-express';
+import { errorMiddleware } from './shared/infrastructure/middlewares/error.middleware';
 
 dotenvConfig();
 
@@ -31,6 +32,7 @@ const startApp = () => {
     app.use(json());
 
     RegisterRoutes(app);
+    app.use(errorMiddleware);
 
     return app;
 };
