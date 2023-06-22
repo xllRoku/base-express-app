@@ -1,8 +1,8 @@
-import { EmailVO } from '@shared/domain/value-objects/email.vo';
-import { NameVO } from '@shared/domain/value-objects/name.vo';
-import { PasswordVO } from '@shared/domain/value-objects/password.vo';
-import { PlainPasswordVO } from '@shared/domain/value-objects/plain.password.vo';
-import { UuidVO } from '@shared/domain/value-objects/uuid.vo';
+import { EmailVO } from '../../../shared/domain/value-objects/email.vo';
+import { NameVO } from '../../../shared/domain/value-objects/name.vo';
+import { PasswordVO } from '../../../shared/domain/value-objects/password.vo';
+import { PlainPasswordVO } from '../../../shared/domain/value-objects/plain.password.vo';
+import { UuidVO } from '../../../shared/domain/value-objects/uuid.vo';
 
 /**
  * Registered user in the application

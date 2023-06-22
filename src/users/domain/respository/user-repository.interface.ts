@@ -1,6 +1,6 @@
 import { UserModel } from '../models/user.model';
-import { EmailVO } from '@shared/domain/value-objects/email.vo';
-import { UuidVO } from '@shared/domain/value-objects/uuid.vo';
+import { EmailVO } from '../../../shared/domain/value-objects/email.vo';
+import { UuidVO } from '../../../shared/domain/value-objects/uuid.vo';
 
 /**
  * User repository interface

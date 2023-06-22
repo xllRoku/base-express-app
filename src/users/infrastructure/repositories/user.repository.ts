@@ -1,10 +1,10 @@
 import { UserModel } from '../../domain/models/user.model';
 import { IUserRepository } from '../../domain/respository/user-repository.interface';
 import { UserSchema } from '../schemas/user.schema';
-import { EmailVO } from '@shared/domain/value-objects/email.vo';
-import { NameVO } from '@shared/domain/value-objects/name.vo';
-import { PasswordVO } from '@shared/domain/value-objects/password.vo';
-import { UuidVO } from '@shared/domain/value-objects/uuid.vo';
+import { EmailVO } from '../../../shared/domain/value-objects/email.vo';
+import { NameVO } from '../../../shared/domain/value-objects/name.vo';
+import { PasswordVO } from '../../../shared/domain/value-objects/password.vo';
+import { UuidVO } from '../../../shared/domain/value-objects/uuid.vo';
 
 export interface User {
     _id: string;

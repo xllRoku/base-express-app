@@ -15,7 +15,7 @@
         "resolveJsonModule": true,
         "baseUrl": "./",
         "paths": {
-            "@user/*": ["src/user/*"],
+            "@user/*": ["src/users/*"],
             "@shared/*": ["src/shared/*"]
         },
         "plugins": [
